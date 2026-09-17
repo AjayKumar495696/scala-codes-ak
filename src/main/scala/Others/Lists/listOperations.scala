@@ -1,6 +1,6 @@
 package Others.Lists
 
-import scala.collection.immutable._
+import scala.collection.mutable
 //import scala.collection.
 object listOperations {
  /* def fib(n: Int) = {
@@ -17,5 +17,11 @@ object listOperations {
     println(fib(a(x)))
 
   }*/
+  def main(args:Array[String]):Unit={
 
+    var a = List(1,2,3,4,5)
+    var squaredList = a.map(x=>x*x)
+    println(squaredList(3))
+
+  }
 }
