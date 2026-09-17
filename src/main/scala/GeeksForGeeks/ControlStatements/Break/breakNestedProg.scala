@@ -1,34 +1,33 @@
 package GeeksForGeeks.ControlStatements.Break
 
-import scala.util.control.Breaks._
+import scala.util.control.Breaks.{breakable,break}
+
 object breakNestedProg {
   def main(args:Array[String]):Unit={
 
-    var x = 10
-    var y = 20
+    var x = 1
+    var y = 15
 
     breakable {
-      while (x <= 15) {
-        y = 20
-        if (x == 13) {
-          break;
-        }
+      while (x <= 6) {
+        if (x == 4)
+          break
         else {
-        breakable {
-          while (y <= 25) {
-            if (y == 23) {
-              break;
+          println("x and y values are :")
+          y = 15
+          breakable {
+            while (y <= 20) {
+              if (y == 19)
+                break
+              else {
+                println(s"$x , $y")
+              }
+              y += 1
             }
-            else {
-              println(s"The values of x and y are : $x $y")
-            }
-            y += 1
           }
         }
-
-        x += 1
         println("")
-      }
+        x += 1
       }
     }
 

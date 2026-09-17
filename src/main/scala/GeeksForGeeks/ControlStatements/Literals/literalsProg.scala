@@ -2,20 +2,23 @@ package GeeksForGeeks.ControlStatements.Literals
 
 object literalsProg {
   def main(args:Array[String]):Unit={
-    var x = "Hi there"  // This is a single line string literal
-    var y =
+
+    var a = 5            // This is integer literal
+    var b = 'H'          // This is character literal
+    var c = true         // This is boolean literal
+    var d = "Hi there"   // This is a string literal
+
+    var e =
       """Hello
         |there
         |Ajay
-        |""".stripMargin       // This is a multi line string
+        |""".stripMargin       // This is a multi-line string literal
 
-    println(x)
-    println(y)
+    println(a)
+    println(b)
+    println(c)
+    println(d)
+    println(e)
 
-    // single line comment
-
-    /*multi
-    line
-    comment*/
   }
 }
