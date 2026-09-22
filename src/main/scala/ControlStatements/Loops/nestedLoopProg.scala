@@ -1,9 +1,9 @@
 package ControlStatements.Loops
 
 // 1.create a nested for loop
-  // 2.create a nested while loop
-  // 3.for in while loop
-  // 4.while in for loop
+// 2.create a nested while loop
+// 3.for in while loop
+// 4.while in for loop
 
 object nestedLoopProg {
   def main(args:Array[String]):Unit={

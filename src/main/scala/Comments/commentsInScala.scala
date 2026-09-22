@@ -5,9 +5,9 @@ object commentsInScala {
 
     // this is a single line comment in Scala
 
-    /*this is
+    /* this is
     multiline comments
-    in scala*/
+    in scala */
 
     // for multiline comments ctrl + shift + forward slash
 

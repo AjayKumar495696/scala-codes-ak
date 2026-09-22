@@ -2,7 +2,7 @@ package OOP_Concepts.Constructors
 
 class country(){
   def show(): Unit = {
-    println("The number of ppl is 120Billion")
+    println("The number of ppl is 120 Billion")
   }
 }
 object defaultPrimaryConstructor {

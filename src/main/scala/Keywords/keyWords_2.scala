@@ -1,9 +1,9 @@
 package Keywords
 
 class area {            // class is a keyword and area is a class name
-  var name = "Ajay"    // var is a keyword and name is variable name
-  var age = 27
-  var flatNum = 504
+  var name = "Anusha"    // var is a keyword and name is variable name
+  var age = 25
+  var flatNum = 502
   def display(): Unit ={         // def is a keyword and display is method name
     println("My name is "+name+" and my age is "+age)
     println("My house number is "+flatNum)

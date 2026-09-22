@@ -15,7 +15,7 @@ object polymorphism_1 {
   def main(args:Array[String]):Unit={
      var obj= new example1()
      obj.func1(2)
-    obj.func1(2,3)
-    obj.func1(2,3,4)
+     obj.func1(2,3)
+     obj.func1(2,3,4)
   }
 }

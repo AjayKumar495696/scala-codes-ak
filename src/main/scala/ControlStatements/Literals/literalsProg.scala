@@ -1,5 +1,6 @@
 package ControlStatements.Literals
 
+// Literals Programme
 object literalsProg {
   def main(args:Array[String]):Unit={
 
@@ -11,7 +12,7 @@ object literalsProg {
     var e =
       """Hello
         |there
-        |Ajay
+        |Anusha
         |""".stripMargin       // This is a multi-line string literal
 
     println(a)

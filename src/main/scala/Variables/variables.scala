@@ -1,5 +1,6 @@
 package Variables
 
+// Immutable and Mutable variables
 object variables {
   def main(args:Array[String]):Unit={
 

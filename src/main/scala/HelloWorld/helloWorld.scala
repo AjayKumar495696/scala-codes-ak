@@ -1,6 +1,6 @@
 package HelloWorld
 
-// Scala program to print Hello World! by using object-oriented approach
+// Scala program to print Hello World!
 object helloWorld {  // creating object
 
   def main(args:Array[String]):Unit={  // Main method

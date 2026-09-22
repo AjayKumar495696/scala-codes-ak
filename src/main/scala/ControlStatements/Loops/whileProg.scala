@@ -1,8 +1,8 @@
 package ControlStatements.Loops
 
 // 1.print 1 to 10 numbers using while
-  // 2.print 10 to 1 numbers using while
-  // 3.create infinite while loop
+// 2.print 10 to 1 numbers using while
+// 3.create infinite while loop
 
 object whileProg {
   def main(args:Array[String]):Unit={

@@ -1,7 +1,7 @@
-package PracticeCodes
+package PracticeCodes_Scala
 
 
-object practiceCode {
+object practiceCode_Scala_1 {
   def main(args:Array[String]):Unit={
     var list1 = List("He is good", "He is nice", "He")
     var words = list1.flatMap(x=>x.split(" "))

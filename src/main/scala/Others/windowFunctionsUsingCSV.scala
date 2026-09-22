@@ -4,7 +4,7 @@ import org.apache.log4j._
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.functions.{dense_rank, desc, rank, row_number}
-object rank_denserank_1 {
+object windowFunctionsUsingCSV {
   Logger.getLogger("org").setLevel(Level.ERROR)
   def main(args:Array[String]):Unit={
     val spark : SparkSession = SparkSession.builder().master("local[1]")
@@ -17,7 +17,8 @@ object rank_denserank_1 {
     val innerJoinDF = empDF.join(deptDF,empDF("deptid")===deptDF("deptid"),"inner")
     //innerJoinDF.show(false)
     val windowSpec = Window.partitionBy(empDF("deptid")).orderBy(desc("empsal"))
-    val windowFunctionsDF = innerJoinDF.withColumn("rownumber",row_number().over(Window.partitionBy(empDF("deptid")).orderBy(desc("empsal"))))
+    val windowFunctionsDF = innerJoinDF
+      .withColumn("rownumber",row_number().over(Window.partitionBy(empDF("deptid")).orderBy(desc("empsal"))))
       .withColumn("rank",rank().over(Window.partitionBy(empDF("deptid")).orderBy(desc("empsal"))))
       .withColumn("denserank",dense_rank().over(Window.partitionBy(empDF("deptid")).orderBy(desc("empsal"))))
     val requiredWindowFunctionsDF = windowFunctionsDF
