@@ -2,10 +2,11 @@ package Collections.Lists
 
 import scala.collection.immutable._
 
+// All list operations
 object operationsOnList {
   def main(args:Array[String]):Unit={
 
-    val inputList1 = List(1,2,3,4,5,6)
+    val inputList1 = List(5,6,7,8,9,10)
 
     // finding head of the list
     println("The head of the list is :")
@@ -27,6 +28,14 @@ object operationsOnList {
     println("The third element of list is :")
     println(inputList1(2))
 
+    // Double the elements in a list
+    val inputList2 = List(1,2,3,4,5)
+    val doubledList = inputList2.map(x => x * 2)
+    println(doubledList)
+
+    // Square the elements in a list
+    val squaredList = inputList2.map(x => x * x)
+    println(squaredList)
   }
 
 }

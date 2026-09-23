@@ -13,6 +13,6 @@ object PatternMatchingProg {
     case 0 => "Zero"
     case 1 => "One"
     case "Hyd" => "Hyderabad"
-    case _ => "Others"
+    case _ => "Others_Codes"
   }
 }

@@ -2,6 +2,7 @@ package Collections.Lists
 
 import scala.collection.immutable._
 
+// Creating an empty list
 object emptyListProg {
   def main(args:Array[String]):Unit={
 

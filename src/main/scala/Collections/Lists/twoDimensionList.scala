@@ -2,6 +2,7 @@ package Collections.Lists
 
 import scala.collection.immutable._
 
+// creating a two dimensional list
 object twoDimensionList {
   def main(args:Array[String]):Unit={
 
