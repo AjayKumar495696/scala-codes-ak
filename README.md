@@ -1,5 +1,3 @@
-# scala-codes-ak
-
 # Scala Programs :
 
 A collection of **Pure Scala programs and practice code** covering fundamental and intermediate Scala programming concepts.
@@ -67,5 +65,3 @@ Apache Spark-specific concepts such as Spark DataFrames, Spark SQL, transformati
 ## 👨‍💻 Author
 
 **Ajay Somarthy**
-
-Practicing and strengthening skills in **Scala, Apache Spark, Big Data, SQL, and Data Engineering**.
