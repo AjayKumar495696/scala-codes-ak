@@ -5,6 +5,7 @@ object practiceCode_Scala_1 {
 
     val a = List(1,2,3,4)
     val b = a.flatMap(x=>List(x,x*x))
+    
     println(b)
 
   }
