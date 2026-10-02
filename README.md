@@ -62,6 +62,6 @@ This repository contains **Pure Scala programs**.
 
 Apache Spark-specific concepts such as Spark DataFrames, Spark SQL, transformations, actions, and Spark APIs are maintained separately in the spark-codes-ak repository.
 
-## 👨‍💻 Author
+### 👨‍💻 Author
 
 **Ajay Somarthy**
